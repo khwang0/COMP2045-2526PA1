@@ -23,3 +23,6 @@ hs_err_pid*
 
 # Local solution that should never be committed. Or diseaster~~~
 Solution/**
+
+# ignore out directory
+out/** 
