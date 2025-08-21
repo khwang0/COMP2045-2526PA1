@@ -86,7 +86,8 @@ public class SameGame {
                     // Check if the input is in the format of "A-5" or similar
                     // Then call the appropriate methods to
                     // 1. Validate the selection if it is a valid selection
-                    // 2. If valid, copy the gameboard to the variable selectedBoard
+                    // 2. If valid, print the number of blocks being selected and
+                    //    copy the gameboard to the variable selectedBoard
                     // 3. If it is invalid, print an error message and continue to the next iteration
                     // 4. If the selectedBoard is set, either through the "t" command or a valid selection,
                     //    print the selectedBoard and ask for confirmation to remove the selected blocks
@@ -94,6 +95,9 @@ public class SameGame {
                     // 6. If not confirmed, print a message and continue to the next iteration
             }
         }
+        System.out.println("\n\n");
+        printBoard(gameboard); //after the game is over, print the final board again.
+
         System.out.println("Game over! Your final score is: " + score);
         topscorer(score); //to display the top scores and save the current score if applicable
     }
@@ -198,6 +202,9 @@ public class SameGame {
      * 
      * We can assume that the size of the gameboard will never be null and is always pointed 
      * to a rectangular char array.
+     * 
+     * If the player plays very well, the game board may be empty at the end of the game, i.e., 
+     * it has no columns. In this case, the method should print a message saying "Gameboard is empty."
      */
     void printBoard(char[][] gameboard) {
         //TODO
