@@ -1,5 +1,5 @@
 ![](hkbu.png)
-# COMP2026/COMP2045 Programming Assignment 1 - Block Puzzle Game 
+# COMP2045 Programming Assignment 1 - Block Puzzle Game 
 
 ## 2025-26 Semester 1
 
@@ -7,9 +7,9 @@
 * Q & A: [Discord](https://discordapp.com/channels/1004554070083776672/1004554070083776678)
 * Assignment Website: [GitHub](https://github.com/khwang0/COMP2045-2526PA1)
 * Due: 
-  * UAT Due: 23:59pm 2/10/2024 (Wednesday midnight)
-  * Programming Due: 23:59pm 13/10/2024 (Sunday midnight)
-* Download the starter code: [BlockPuzzle](SameGame.java) 
+  * UAT Due: 23:59pm 1/10/2025 (Wednesday midnight)
+  * Programming Due: 23:59pm 12/10/2025 (Sunday midnight)
+* Download the starter code: [SameGame.java](SameGame.java) 
 * Download the demo program: [here](demo.jar)
 * Download everything from the assignment: [here](https://github.com/khwang0/COMP2045-2526PA1/archive/refs/heads/master.zip)
 
@@ -61,20 +61,20 @@ You don't need to do anything with this java file. The purpose of this file is t
  
  ![](img/add-JUnit.png)
 
-3. Click the red bulb and select `Add JUnit4 to classpath`.
+3. Click the red bulb and select `Add JUnit5.x.x to classpath`.
  
  ![](img/add-5.5.png)
 
 4. Click the arrow on the left of `public class TestClass` and select `Run Tests`.
  
- ![](img/runTest.png)
+ ![](img/run-Test.png)
 
 5. You shall see the following screen if there isn't any problem
  
  ![](img/ok.png)  
 
-6. Or you will see some error if your code does not perform what it is suppose to do. For example in the figure below, the test case `testReadValidInput` is not working properly.
- 
+6. Or you will see some error if your code does not perform what it is suppose to do. For example in the figure below, the test case `testPrintBoard` is not working properly.
+
  ![](img/notok.png)
 
 > Note: If you are struggle with this file (e.g. cannot compile your code), simply delete this file. 
@@ -126,7 +126,7 @@ if (lateHour > 0) {
  Plagiarism is a serious offense and can be easily detected. Please don't share your code to your classmate even if they are threatening you with your friendship. If they don't have the ability to work on something that can compile, they would not be able to change your code to a state that we can't detect the act of plagiarism. For the first commit of plagiarism, regardless you shared your code or copied code from others, you will receive 0 with an addition of 5-mark penalty. If you commit plagiarism twice, your case will be presented in the exam board and you will receive a F directly.
 
 
-> # Terms about generative AI
+> # Terms about Generative AI
 > You are not allowed to use any generative AI in this assignment.
 > The reason is straight forward. If you use generative AI, you are
 > unable to practise your coding skills. We would like you to get
