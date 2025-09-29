@@ -7,7 +7,7 @@
 * Q & A: [Discord](https://discordapp.com/channels/1004554070083776672/1004554070083776678)
 * Assignment Website: [GitHub](https://github.com/khwang0/COMP2045-2526PA1)
 * Due: 
-  * UAT Due: 23:59pm 1/10/2025 (Wednesday midnight)
+  * UAT Due: 23:59pm 4/10/2025 (Saturday midnight) -- updated
   * Programming Due: 23:59pm 12/10/2025 (Sunday midnight)
 * Download the starter code: [SameGame.java](SameGame.java) 
 * Download the demo program: [here](demo.jar)
@@ -17,6 +17,10 @@
 > 
 > ```sh
 > > java -jar demo.jar
+> ```
+> or running another version of the demo program by
+> ```sh
+> > java -jar demo2.jar 
 > ```
 
 ![](samegame.png)
@@ -94,7 +98,7 @@ Submit your answers on Moodle.
 
 
 # Submission 
-For submission upload the file `BlockPuzzle.java` to Moodle.  
+For submission upload the file `SameGame.java` to Moodle.  
 
 Please be reminded that both the **Late Penalty Rule** and the **Penalty for Plagiarism** are applied strictly to all submissions of this course (including this assignment).   
 
